@@ -9,7 +9,7 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'react-notification-system.js',
+    filename: 'react-notification-system-17.js',
     libraryTarget: 'umd',
     library: "ReactNotificationSystem"
   },

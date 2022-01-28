@@ -1,19 +1,19 @@
 # React Notification System
 
-[![npm version](https://badge.fury.io/js/react-notification-system.svg)](http://badge.fury.io/js/react-notification-system) [![npm](https://img.shields.io/npm/dm/react-notification-system.svg)](https://www.npmjs.com/package/react-notification-system) [![Dependency Status](https://david-dm.org/igorprado/react-notification-system.svg)](https://david-dm.org/igorprado/react-notification-system) [![devDependency Status](https://david-dm.org/igorprado/react-notification-system/dev-status.svg)](https://david-dm.org/igorprado/react-notification-system#info=devDependencies) [![Build Status](https://travis-ci.org/igorprado/react-notification-system.svg?branch=master)](https://travis-ci.org/igorprado/react-notification-system) [![Coverage Status](https://coveralls.io/repos/igorprado/react-notification-system/badge.svg?branch=master&service=github)](https://coveralls.io/github/igorprado/react-notification-system?branch=master)
+[![npm version](https://badge.fury.io/js/react-notification-system-17.svg)](http://badge.fury.io/js/react-notification-system-17) [![npm](https://img.shields.io/npm/dm/react-notification-system-17.svg)](https://www.npmjs.com/package/react-notification-system-17) [![Dependency Status](https://david-dm.org/cristian-sima/react-notification-system-17.svg)](https://david-dm.org/cristian-sima/react-notification-system-17) [![devDependency Status](https://david-dm.org/cristian-sima/react-notification-system-17/dev-status.svg)](https://david-dm.org/cristian-sima/react-notification-system-17#info=devDependencies) [![Build Status](https://travis-ci.org/cristian-sima/react-notification-system-17.svg?branch=master)](https://travis-ci.org/cristian-sima/react-notification-system-17) [![Coverage Status](https://coveralls.io/repos/cristian-sima/react-notification-system-17/badge.svg?branch=master&service=github)](https://coveralls.io/github/cristian-sima/react-notification-system-17?branch=master)
 
 > A complete and totally customizable component for notifications in React.
 
 _Initially built for [Eterpret](http://dev.eterpret.com) @ [Scalable Path](http://www.scalablepath.com)._
 
-<a href="https://igorprado.github.io/react-notification-system/"><img width="728" src="example/src/images/screenshot.jpg" alt="Screenshot"></a>
+<a href="https://cristian-sima.github.io/react-notification-system-17/"><img width="728" src="example/src/images/screenshot.jpg" alt="Screenshot"></a>
 
 ## Installing
 
 This component is available as CommonJS and UMD module. Install via NPM running:
 
 ```
-npm install react-notification-system
+npm install react-notification-system-17
 ```
 
 ### Important
@@ -21,13 +21,13 @@ npm install react-notification-system
 For **React ^0.14.x** or **React ^15.x.x**, use version 0.2.x:
 
 ```
-npm install react-notification-system@0.2.x
+npm install react-notification-system-17@0.2.x
 ```
 
 For **React 0.13.x**, use version 0.1.x:
 
 ```
-npm install react-notification-system@0.1.x
+npm install react-notification-system-17@0.1.x
 ```
 
 
@@ -36,14 +36,14 @@ npm install react-notification-system@0.1.x
 
 For optimal appearance, this component **must be rendered on a top level HTML element** in your application to avoid position conflicts.
 
-Here is a basic example. For a more advanced usage, please see the [example code](https://github.com/igorprado/react-notification-system/blob/master/example/src/scripts/App.jsx).
+Here is a basic example. For a more advanced usage, please see the [example code](https://github.com/cristian-sima/react-notification-system-17/blob/master/example/src/scripts/App.jsx).
 
 
 Class-based components can also be used as follows
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NotificationSystem from 'react-notification-system';
+import NotificationSystem from 'react-notification-system-17';
 
 export default class MyComponent extends React.Component {
   notificationSystem = React.createRef();
@@ -179,7 +179,7 @@ var style = {
 
 ```
 
-Refer to [this file](https://github.com/igorprado/react-notification-system/blob/master/src/styles.js) to see what can you override.
+Refer to [this file](https://github.com/cristian-sima/react-notification-system-17/blob/master/src/styles.js) to see what can you override.
 
 ### Disabling inline styles
 
@@ -215,7 +215,7 @@ Using this method you have to take care of **every style**, from containers posi
 <NotificationSystem ref="notificationSystem" noAnimation={true} />
 ```
 
-See [#74](https://github.com/igorprado/react-notification-system/issues/74) for more details.
+See [#74](https://github.com/cristian-sima/react-notification-system-17/issues/74) for more details.
 
 ### Appending/Prepending notifications
 
@@ -237,7 +237,7 @@ This will render new notifications on top of current ones
 Clone this repo by running:
 
 ```
-git clone git@github.com:igorprado/react-notification-system.git
+git clone git@github.com:cristian-sima/react-notification-system-17.git
 ```
 
 Enter the project folder and install the dependencies:

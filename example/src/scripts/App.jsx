@@ -72,8 +72,8 @@ class NotificationSystemExample extends React.Component {
               <small className="more-magic">Click twice for more awesomeness!</small>
             </div>
             <div className="github-buttons">
-              <a className="github-button" href="https://github.com/igorprado/react-notification-system" data-size="large" data-icon="octicon-star" data-count-href="/igorprado/react-notification-system/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star igorprado/react-notification-system on GitHub">Star</a>
-              <a className="github-button" href="https://github.com/igorprado/react-notification-system/fork" data-size="large" data-icon="octicon-repo-forked" data-count-href="/igorprado/react-notification-system/network" data-show-count="true" data-count-aria-label="# forks on GitHub" aria-label="Fork igorprado/react-notification-system on GitHub">Fork</a>
+              <a className="github-button" href="https://github.com/cristian-sima/react-notification-system-17" data-size="large" data-icon="octicon-star" data-count-href="/cristian-sima/react-notification-system-17/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star cristian-sima/react-notification-system-17 on GitHub">Star</a>
+              <a className="github-button" href="https://github.com/cristian-sima/react-notification-system-17/fork" data-size="large" data-icon="octicon-repo-forked" data-count-href="/cristian-sima/react-notification-system-17/network" data-show-count="true" data-count-aria-label="# forks on GitHub" aria-label="Fork cristian-sima/react-notification-system-17 on GitHub">Fork</a>
             </div>
           </div>
         </header>
@@ -83,7 +83,7 @@ class NotificationSystemExample extends React.Component {
         <footer className="footer gradient">
           <div className="overlay" />
           <div className="wrapper">
-            <p>Made in Brasília, Brazil by <a href="http://igorprado.com" target="_blank">Igor Prado</a>.</p>
+            <p>Made in Brasília, Brazil by <a href="http://cristian-sima.com" target="_blank">Igor Prado</a>.</p>
           </div>
         </footer>
         <NotificationSystem ref={ this._notificationSystem } allowHTML={ this.state.allowHTML } newOnTop={ this.state.newOnTop } />

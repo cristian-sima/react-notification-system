@@ -1,13 +1,13 @@
 {
-  "name": "react-notification-system",
+  "name": "react-notification-system-17",
   "version": "0.4.0",
-  "description": "A React Notification System fully customized",
+  "description": "A React Notification System fully customized - React v17",
   "main": "dist/NotificationSystem.js",
   "scripts": {
     "test": "karma start --single-run",
     "test-watch": "karma start",
     "prepare-build": "npm run lint && rimraf dist/",
-    "prebuild": "npm run prepare-build",
+    "load": "npm run prepare-build && npm run build && npm publish",
     "build": "jsx -x jsx ./src ./dist & jsx ./src ./dist && webpack --stats --config webpack.config.umd.prod.js && webpack --stats --config webpack.config.umd.dev.js",
     "lint": "eslint src --ext .jsx,.js",
     "start": "NODE_ENV=development node devServer.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/igorprado/react-notification-system"
+    "url": "https://github.com/cristian-sima/react-notification-system-17"
   },
   "keywords": [
     "react",
@@ -28,16 +28,12 @@
   "author": "Igor Prado",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/igorprado/react-notification-system/issues"
+    "url": "https://github.com/cristian-sima/react-notification-system-17/issues"
   },
-  "homepage": "https://github.com/igorprado/react-notification-system",
+  "homepage": "https://github.com/cristian-sima/react-notification-system-17",
   "dependencies": {
     "object-assign": "^4.0.1",
     "prop-types": "^15.5.6"
-  },
-  "peerDependencies": {
-    "react": "0.14.x || ^15.0.0 || ^16.0.0",
-    "react-dom": "0.14.x || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
@@ -69,13 +65,12 @@
     "karma-sourcemap-loader": "^0.3.6",
     "karma-webpack": "^1.7.0",
     "mocha": "^4.0.1",
-    "node-sass": "^4.13.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
+    "node-sass": "^3.4.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-tools": "^0.13.2",
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.1",
-    "redbox-react": "^1.1.1",
     "rimraf": "^2.4.3",
     "sass-loader": "^3.0.0",
     "style-loader": "^0.12.4",
